@@ -61,7 +61,14 @@ public static class Programm
         Console.WriteLine(rans.CanConstruct("jjj", "hjibagacbhadfaefdjaeaebgi"));
 */
         //Dota2 Senate
-        Dota2Senate dota = new Dota2Senate();
-        Console.WriteLine(dota.PredictPartyVictory("RDD"));
+/*        Dota2Senate dota = new Dota2Senate();
+        Console.WriteLine(dota.PredictPartyVictory("RDD"));*/
+
+        //Two Sum
+        SumOf2 sumOf2 = new SumOf2();
+        int[] arr = { 3, 2, 4 };
+        Console.WriteLine(sumOf2.TwoSum(arr, 6)[0]);
+        Console.WriteLine(sumOf2.TwoSum(arr, 6)[1]);
+        Console.WriteLine(arr[1] + arr[2]);
     }
 }

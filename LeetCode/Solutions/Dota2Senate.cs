@@ -12,7 +12,6 @@ namespace LeetCode.Solutions
         public string PredictPartyVictory(string senate)
         {
             int counter = 0;
-            List<char> list = senate.ToList<char>();
             char[] arr = senate.ToArray();
 
             
@@ -41,21 +40,14 @@ namespace LeetCode.Solutions
                 }
             }
 
-            /*            if (list.Contains('R'))
-                        {
-                            return "Radiant";
-                        }
-                        else
-                        {
-                            return "Dire";
-                        }*/
-            string result = "";
-            foreach (char c in arr)
+            if (arr.Contains('R'))
             {
-                result += c;
+                return "Radiant";
             }
-            return result;
-
+            else
+            {
+                return "Dire";
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using LeetCode.Solutions;
+using System.Diagnostics.Metrics;
 
 public static class Programm
 {
@@ -55,8 +56,12 @@ public static class Programm
         Console.WriteLine(paly.IsPalindrome(list));*/
 
 
-        //Ransom
+/*        //Ransom
         RansomNote rans = new RansomNote();
         Console.WriteLine(rans.CanConstruct("jjj", "hjibagacbhadfaefdjaeaebgi"));
+*/
+        //Dota2 Senate
+        Dota2Senate dota = new Dota2Senate();
+        Console.WriteLine(dota.PredictPartyVictory("RDD"));
     }
 }

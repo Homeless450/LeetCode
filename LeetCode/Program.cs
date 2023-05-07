@@ -70,8 +70,17 @@ public static class Programm
         Console.WriteLine(sumOf2.TwoSum(arr, 6)[0]);
         Console.WriteLine(sumOf2.TwoSum(arr, 6)[1]);*/
 
-        //Substring
+/*        //Substring
         LongestSubstring substring = new LongestSubstring();
-        Console.WriteLine(substring.LengthOfLongestSubstring("pwwkew"));
+        Console.WriteLine(substring.LengthOfLongestSubstring("pwwkew"));*/
+
+        //Longest Palindrom
+/*        PalindromicSubstring palindromicSubstring = new PalindromicSubstring();
+        Console.WriteLine(palindromicSubstring.LongestPalindrome("jrjnbctoqgzimtoklkxcknwmhiztomaofwwzjnhrijwkgmwwuazcowskjhitejnvtblqyepxispasrgvgzqlvrmvhxusiqqzzibcyhpnruhrgbzsmlsuacwptmzxuewnjzmwxbdzqyvsjzxiecsnkdibudtvthzlizralpaowsbakzconeuwwpsqynaxqmgngzpovauxsqgypinywwtmekzhhlzaeatbzryreuttgwfqmmpeywtvpssznkwhzuqewuqtfuflttjcxrhwexvtxjihunpywerkktbvlsyomkxuwrqqmbmzjbfytdddnkasmdyukawrzrnhdmaefzltddipcrhuchvdcoegamlfifzistnplqabtazunlelslicrkuuhosoyduhootlwsbtxautewkvnvlbtixkmxhngidxecehslqjpcdrtlqswmyghmwlttjecvbueswsixoxmymcepbmuwtzanmvujmalyghzkvtoxynyusbpzpolaplsgrunpfgdbbtvtkahqmmlbxzcfznvhxsiytlsxmmtqiudyjlnbkzvtbqdsknsrknsykqzucevgmmcoanilsyyklpbxqosoquolvytefhvozwtwcrmbnyijbammlzrgalrymyfpysbqpjwzirsfknnyseiujadovngogvptphuyzkrwgjqwdhtvgxnmxuheofplizpxijfytfabx"));
+*/    
+    //Zigzag
+
+        ZigZagConverter zig = new ZigZagConverter();
+        Console.WriteLine(zig.Convert("AB", 1));
     }
 }

@@ -1,4 +1,5 @@
 ﻿using LeetCode.Solutions;
+using LeetCode.Solutions._11_05;
 using System.Diagnostics.Metrics;
 
 public static class Programm
@@ -7,39 +8,42 @@ public static class Programm
     
     {
 
-/*        //Roman to integer
-        var s = Console.ReadLine();
-        RomToInt romToInt = new RomToInt();
-        var a = romToInt.RomanToInt(s);
-        Console.WriteLine(a);
-        //*/
+        /*        //Roman to integer
+                var s = Console.ReadLine();
+                RomToInt romToInt = new RomToInt();
+                var a = romToInt.RomanToInt(s);
+                Console.WriteLine(a);
+                //*/
 
-/*        int n = Int32.Parse(Console.ReadLine());
-        FizzBuzzTask task = new FizzBuzzTask();
-        Console.WriteLine(task.FizzBuzz(n));*/
+        /*        int n = Int32.Parse(Console.ReadLine());
+                FizzBuzzTask task = new FizzBuzzTask();
+                Console.WriteLine(task.FizzBuzz(n));*/
 
-        //need to rework
-/*        KWeakestRowsTask rows = new KWeakestRowsTask();
-        int[][] b =
-        {
-            new int[] { 1, 1, 0, 0, 0 },
+
+        int[][] matrix =
+{
+            new int[] { 1, 1, 0, 0, 1 },
             new int[] { 1, 1, 1, 1, 0 },
-            new int[] { 1, 0, 0, 0, 0 },
-            new int[] { 1, 1, 0, 0, 0 },
+            new int[] { 1, 0, 1, 0, 0 },
+            new int[] { 1, 1, 0, 1, 0 },
             new int[] { 1, 1, 1, 1, 1 }
         };
-        int[] c = rows.KWeakestRows(b, 3);
-        foreach (int row in c)
-        {
-            Console.Write("{0}, ", row);
-        }*/
+
+        //need to rework
+        /*        KWeakestRowsTask rows = new KWeakestRowsTask();
+
+                int[] c = rows.KWeakestRows(b, 3);
+                foreach (int row in c)
+                {
+                    Console.Write("{0}, ", row);
+                }*/
 
         //Midle
         MiddleOfTheLinkedList middle = new MiddleOfTheLinkedList();
         ListNode list5 = new ListNode(0);
         ListNode list4 = new ListNode(1, list5);
         ListNode list3 = new ListNode(2, list4);
-        ListNode list2 = new ListNode(0);
+        ListNode list2 = new ListNode(3, list3);
         ListNode list1 = new ListNode(0, list2);
         ListNode list = new ListNode(1, list1);   
         
@@ -78,9 +82,31 @@ public static class Programm
 /*        PalindromicSubstring palindromicSubstring = new PalindromicSubstring();
         Console.WriteLine(palindromicSubstring.LongestPalindrome("jrjnbctoqgzimtoklkxcknwmhiztomaofwwzjnhrijwkgmwwuazcowskjhitejnvtblqyepxispasrgvgzqlvrmvhxusiqqzzibcyhpnruhrgbzsmlsuacwptmzxuewnjzmwxbdzqyvsjzxiecsnkdibudtvthzlizralpaowsbakzconeuwwpsqynaxqmgngzpovauxsqgypinywwtmekzhhlzaeatbzryreuttgwfqmmpeywtvpssznkwhzuqewuqtfuflttjcxrhwexvtxjihunpywerkktbvlsyomkxuwrqqmbmzjbfytdddnkasmdyukawrzrnhdmaefzltddipcrhuchvdcoegamlfifzistnplqabtazunlelslicrkuuhosoyduhootlwsbtxautewkvnvlbtixkmxhngidxecehslqjpcdrtlqswmyghmwlttjecvbueswsixoxmymcepbmuwtzanmvujmalyghzkvtoxynyusbpzpolaplsgrunpfgdbbtvtkahqmmlbxzcfznvhxsiytlsxmmtqiudyjlnbkzvtbqdsknsrknsykqzucevgmmcoanilsyyklpbxqosoquolvytefhvozwtwcrmbnyijbammlzrgalrymyfpysbqpjwzirsfknnyseiujadovngogvptphuyzkrwgjqwdhtvgxnmxuheofplizpxijfytfabx"));
 */    
-    //Zigzag
+/*    //Zigzag
 
         ZigZagConverter zig = new ZigZagConverter();
-        Console.WriteLine(zig.Convert("AB", 1));
+        Console.WriteLine(zig.Convert("AB", 1));*/
+
+
+/*        //Simple Number Palindrom Task
+        NumbersPalindrom numbersPalindrom = new NumbersPalindrom();
+        Console.WriteLine(numbersPalindrom.IsPalindrome(121));*/
+
+        //Matrix Diagonal Sum
+        MatrixDiagonalSum matrixDiagonalSum = new MatrixDiagonalSum();
+        Console.WriteLine(matrixDiagonalSum.DiagonalSum(matrix));
+
+        SumOf2ListNode sumOf2ListNode = new SumOf2ListNode();
+        Console.WriteLine(sumOf2ListNode.AddTwoNumbers(list, list));
+
+        ValidParentheses validParentheses = new ValidParentheses();
+        Console.WriteLine(validParentheses.IsValid("()[]{}"));
+
+        //Container With Most Water
+        //
+        int[] waterArr = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+        MaxWater maxWater = new MaxWater();
+        Console.WriteLine(maxWater.MaxArea(waterArr));
+
     }
 }

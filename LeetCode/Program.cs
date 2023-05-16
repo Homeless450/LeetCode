@@ -1,11 +1,11 @@
 ﻿using LeetCode.Solutions;
-using LeetCode.Solutions._11_05;
+using LeetCode.Solutions._05;
 using System.Diagnostics.Metrics;
 
 public static class Programm
 {
     static void Main(string[] args)
-    
+
     {
 
         /*        //Roman to integer
@@ -45,52 +45,52 @@ public static class Programm
         ListNode list3 = new ListNode(2, list4);
         ListNode list2 = new ListNode(3, list3);
         ListNode list1 = new ListNode(0, list2);
-        ListNode list = new ListNode(1, list1);   
-        
-/*        var index = 0;
-        while (3 != index)
-        {
-            list = list.next;
-            Console.WriteLine(middle.MiddleNode(list).val);
-            index++;
-        }*/
-/*
-        //Paly
-        PalindromeCheck paly = new PalindromeCheck();
-        Console.WriteLine(paly.IsPalindrome(list));*/
+        ListNode list = new ListNode(1, list1);
+
+        /*        var index = 0;
+                while (3 != index)
+                {
+                    list = list.next;
+                    Console.WriteLine(middle.MiddleNode(list).val);
+                    index++;
+                }*/
+        /*
+                //Paly
+                PalindromeCheck paly = new PalindromeCheck();
+                Console.WriteLine(paly.IsPalindrome(list));*/
 
 
-/*        //Ransom
-        RansomNote rans = new RansomNote();
-        Console.WriteLine(rans.CanConstruct("jjj", "hjibagacbhadfaefdjaeaebgi"));
-*/
+        /*        //Ransom
+                RansomNote rans = new RansomNote();
+                Console.WriteLine(rans.CanConstruct("jjj", "hjibagacbhadfaefdjaeaebgi"));
+        */
         //Dota2 Senate
-/*        Dota2Senate dota = new Dota2Senate();
-        Console.WriteLine(dota.PredictPartyVictory("RDD"));*/
+        /*        Dota2Senate dota = new Dota2Senate();
+                Console.WriteLine(dota.PredictPartyVictory("RDD"));*/
 
-/*        //Two Sum
-        SumOf2 sumOf2 = new SumOf2();
-        int[] arr = { 3, 2, 4 };
-        Console.WriteLine(sumOf2.TwoSum(arr, 6)[0]);
-        Console.WriteLine(sumOf2.TwoSum(arr, 6)[1]);*/
+        /*        //Two Sum
+                SumOf2 sumOf2 = new SumOf2();
+                int[] arr = { 3, 2, 4 };
+                Console.WriteLine(sumOf2.TwoSum(arr, 6)[0]);
+                Console.WriteLine(sumOf2.TwoSum(arr, 6)[1]);*/
 
-/*        //Substring
-        LongestSubstring substring = new LongestSubstring();
-        Console.WriteLine(substring.LengthOfLongestSubstring("pwwkew"));*/
+        /*        //Substring
+                LongestSubstring substring = new LongestSubstring();
+                Console.WriteLine(substring.LengthOfLongestSubstring("pwwkew"));*/
 
         //Longest Palindrom
-/*        PalindromicSubstring palindromicSubstring = new PalindromicSubstring();
-        Console.WriteLine(palindromicSubstring.LongestPalindrome("jrjnbctoqgzimtoklkxcknwmhiztomaofwwzjnhrijwkgmwwuazcowskjhitejnvtblqyepxispasrgvgzqlvrmvhxusiqqzzibcyhpnruhrgbzsmlsuacwptmzxuewnjzmwxbdzqyvsjzxiecsnkdibudtvthzlizralpaowsbakzconeuwwpsqynaxqmgngzpovauxsqgypinywwtmekzhhlzaeatbzryreuttgwfqmmpeywtvpssznkwhzuqewuqtfuflttjcxrhwexvtxjihunpywerkktbvlsyomkxuwrqqmbmzjbfytdddnkasmdyukawrzrnhdmaefzltddipcrhuchvdcoegamlfifzistnplqabtazunlelslicrkuuhosoyduhootlwsbtxautewkvnvlbtixkmxhngidxecehslqjpcdrtlqswmyghmwlttjecvbueswsixoxmymcepbmuwtzanmvujmalyghzkvtoxynyusbpzpolaplsgrunpfgdbbtvtkahqmmlbxzcfznvhxsiytlsxmmtqiudyjlnbkzvtbqdsknsrknsykqzucevgmmcoanilsyyklpbxqosoquolvytefhvozwtwcrmbnyijbammlzrgalrymyfpysbqpjwzirsfknnyseiujadovngogvptphuyzkrwgjqwdhtvgxnmxuheofplizpxijfytfabx"));
-*/    
-/*    //Zigzag
+        /*        PalindromicSubstring palindromicSubstring = new PalindromicSubstring();
+                Console.WriteLine(palindromicSubstring.LongestPalindrome("jrjnbctoqgzimtoklkxcknwmhiztomaofwwzjnhrijwkgmwwuazcowskjhitejnvtblqyepxispasrgvgzqlvrmvhxusiqqzzibcyhpnruhrgbzsmlsuacwptmzxuewnjzmwxbdzqyvsjzxiecsnkdibudtvthzlizralpaowsbakzconeuwwpsqynaxqmgngzpovauxsqgypinywwtmekzhhlzaeatbzryreuttgwfqmmpeywtvpssznkwhzuqewuqtfuflttjcxrhwexvtxjihunpywerkktbvlsyomkxuwrqqmbmzjbfytdddnkasmdyukawrzrnhdmaefzltddipcrhuchvdcoegamlfifzistnplqabtazunlelslicrkuuhosoyduhootlwsbtxautewkvnvlbtixkmxhngidxecehslqjpcdrtlqswmyghmwlttjecvbueswsixoxmymcepbmuwtzanmvujmalyghzkvtoxynyusbpzpolaplsgrunpfgdbbtvtkahqmmlbxzcfznvhxsiytlsxmmtqiudyjlnbkzvtbqdsknsrknsykqzucevgmmcoanilsyyklpbxqosoquolvytefhvozwtwcrmbnyijbammlzrgalrymyfpysbqpjwzirsfknnyseiujadovngogvptphuyzkrwgjqwdhtvgxnmxuheofplizpxijfytfabx"));
+        */
+        /*    //Zigzag
 
-        ZigZagConverter zig = new ZigZagConverter();
-        Console.WriteLine(zig.Convert("AB", 1));*/
+                ZigZagConverter zig = new ZigZagConverter();
+                Console.WriteLine(zig.Convert("AB", 1));*/
 
 
-/*        //Simple Number Palindrom Task
-        NumbersPalindrom numbersPalindrom = new NumbersPalindrom();
-        Console.WriteLine(numbersPalindrom.IsPalindrome(121));*/
+        /*        //Simple Number Palindrom Task
+                NumbersPalindrom numbersPalindrom = new NumbersPalindrom();
+                Console.WriteLine(numbersPalindrom.IsPalindrome(121));*/
 
         //Matrix Diagonal Sum
         MatrixDiagonalSum matrixDiagonalSum = new MatrixDiagonalSum();
@@ -108,5 +108,63 @@ public static class Programm
         MaxWater maxWater = new MaxWater();
         Console.WriteLine(maxWater.MaxArea(waterArr));
 
+        //Longest Prefix
+        string[] strs = { "flower", "flow", "flight" };
+        LongestPrefix longestPrefix = new LongestPrefix();
+        Console.WriteLine(longestPrefix.LongestCommonPrefix(strs));
+
+        //Merge 2 sorted lists
+        ListNode MergeList6 = new ListNode(6);
+        ListNode MergeList5 = new ListNode(5, MergeList6);
+        ListNode MergeList4 = new ListNode(4, MergeList5);
+        ListNode MergeList3 = new ListNode(3, MergeList4);
+        ListNode MergeList2 = new ListNode(2, MergeList3);
+        ListNode mergeList1 = new ListNode(1, MergeList2);
+
+        MergeChainedList mergeChainedList = new MergeChainedList();
+        Console.WriteLine(mergeChainedList.MergeTwoLists(MergeList3, MergeList2).val);
+
+        //Convert string to int
+        StringToInteger stringToInteger = new StringToInteger();
+        Console.WriteLine(stringToInteger.MyAtoi("-91283472332"));
+
+        //Remove Value By Index In Node List
+        RemoveByIndexInNodeList removeByIndexInNodeList = new RemoveByIndexInNodeList();
+        Console.WriteLine(DisplayNodeList(removeByIndexInNodeList.RemoveNthFromEnd(mergeList1, 4)));
+
+        //Remove duplicates
+        RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
+        int[] nums = { 1,2,2 };
+        Console.WriteLine("////");
+        Console.WriteLine(removeDuplicatesFromSortedArray.RemoveDuplicates(nums));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //help Methods
+        string DisplayNodeList (ListNode list)
+        {
+            string result = string.Empty;
+            while (list != null)
+            {
+                result += list.val.ToString();
+                list = list.next;
+            }
+            return result;
+        }
     }
 }

@@ -132,13 +132,17 @@ public static class Programm
         RemoveByIndexInNodeList removeByIndexInNodeList = new RemoveByIndexInNodeList();
         Console.WriteLine(DisplayNodeList(removeByIndexInNodeList.RemoveNthFromEnd(mergeList1, 4)));
 
+        int[] nums = { 1, 2, 2 };
+
         //Remove duplicates
-        RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
-        int[] nums = { 1,2,2 };
-        Console.WriteLine("////");
-        Console.WriteLine(removeDuplicatesFromSortedArray.RemoveDuplicates(nums));
+        /*        RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
+                Console.WriteLine("////");
+                Console.WriteLine(removeDuplicatesFromSortedArray.RemoveDuplicates(nums));
+        */
+        //Remove From array
 
-
+        RemoveFromArray removeFromArray = new RemoveFromArray();
+        Console.WriteLine(removeFromArray.RemoveElement(nums, 2));
 
 
 
@@ -156,6 +160,7 @@ public static class Programm
 
 
         //help Methods
+
         string DisplayNodeList (ListNode list)
         {
             string result = string.Empty;

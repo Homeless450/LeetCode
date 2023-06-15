@@ -8,7 +8,7 @@ namespace LeetCode.Solutions._05
 {
     internal class Design_HashSet
     {
-        public MyHashSet() { }
+        //public MyHashSet() { }
 
         Dictionary<int, bool> dic = new Dictionary<int, bool>();
 

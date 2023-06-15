@@ -1,5 +1,6 @@
 ﻿using LeetCode.Solutions;
 using LeetCode.Solutions._05;
+using LeetCode.Solutions._06;
 using System.Diagnostics.Metrics;
 
 public static class Programm
@@ -121,17 +122,17 @@ public static class Programm
         ListNode MergeList2 = new ListNode(2, MergeList3);
         ListNode mergeList1 = new ListNode(1, MergeList2);
 
-        MergeChainedList mergeChainedList = new MergeChainedList();
+/*        MergeChainedList mergeChainedList = new MergeChainedList();
         Console.WriteLine(mergeChainedList.MergeTwoLists(MergeList3, MergeList2).val);
-
+*/
         //Convert string to int
-        StringToInteger stringToInteger = new StringToInteger();
+/*        StringToInteger stringToInteger = new StringToInteger();
         Console.WriteLine(stringToInteger.MyAtoi("-91283472332"));
-
+*/
         //Remove Value By Index In Node List
-        RemoveByIndexInNodeList removeByIndexInNodeList = new RemoveByIndexInNodeList();
+/*        RemoveByIndexInNodeList removeByIndexInNodeList = new RemoveByIndexInNodeList();
         Console.WriteLine(DisplayNodeList(removeByIndexInNodeList.RemoveNthFromEnd(mergeList1, 4)));
-
+*/
         int[] nums = { 1, 2, 2 };
 
         //Remove duplicates
@@ -145,7 +146,9 @@ public static class Programm
         Console.WriteLine(removeFromArray.RemoveElement(nums, 2));
 
 
-
+        //Letter_Combinations_of_a_Phone_Number
+        Letter_Combinations_of_a_Phone_Number letter_comb = new Letter_Combinations_of_a_Phone_Number();
+        Console.WriteLine(letter_comb.LetterCombinations("234"));
 
 
 

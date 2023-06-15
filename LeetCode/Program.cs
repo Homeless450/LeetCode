@@ -151,7 +151,9 @@ public static class Programm
         Console.WriteLine(letter_comb.LetterCombinations("234"));
 
 
-
+        //Find the index
+        Find_the_Index_of_the_First_Occurrence_in_a_String indexFinder = new Find_the_Index_of_the_First_Occurrence_in_a_String();
+        Console.WriteLine(indexFinder.StrStr("mississippi", "pi"));
 
 
 

@@ -14,8 +14,6 @@ namespace LeetCode.Solutions._06
             int temp;
             for (int i = 0; i < haystack.Length; i++)
             {
-                if (i == 8)
-                    temp = i;
                 if (haystack[i] == needle[0] && needle.Length <= haystack.Length - i)
                 {
                     temp = i;
@@ -28,7 +26,7 @@ namespace LeetCode.Solutions._06
                                 i = temp + 1; temp = -1; break;
                             }
                         }
-                        xresult = temp;
+                        result = temp;
                     }
                 }
             }

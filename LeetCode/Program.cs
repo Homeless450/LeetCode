@@ -133,8 +133,8 @@ public static class Programm
 /*        RemoveByIndexInNodeList removeByIndexInNodeList = new RemoveByIndexInNodeList();
         Console.WriteLine(DisplayNodeList(removeByIndexInNodeList.RemoveNthFromEnd(mergeList1, 4)));
 */
-        int[] nums = { 1, 2, 2 };
-
+        //int[] nums = { 1, 2, 3, 4 , 5 };
+        int[] nums = { 1, 3, 5, 6 };
         //Remove duplicates
         /*        RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
                 Console.WriteLine("////");
@@ -142,9 +142,9 @@ public static class Programm
         */
         //Remove From array
 
-        RemoveFromArray removeFromArray = new RemoveFromArray();
+/*        RemoveFromArray removeFromArray = new RemoveFromArray();
         Console.WriteLine(removeFromArray.RemoveElement(nums, 2));
-
+*/
 
         //Letter_Combinations_of_a_Phone_Number
         Letter_Combinations_of_a_Phone_Number letter_comb = new Letter_Combinations_of_a_Phone_Number();
@@ -155,8 +155,26 @@ public static class Programm
         Find_the_Index_of_the_First_Occurrence_in_a_String indexFinder = new Find_the_Index_of_the_First_Occurrence_in_a_String();
         Console.WriteLine(indexFinder.StrStr("mississippi", "pi"));
 
+        //Rotate array
+        Rotate_Array rotate_Array = new Rotate_Array();
+        rotate_Array.Rotate(nums, 5);
+        foreach (int i in nums)
+        {
+            Console.WriteLine(i);
+        }
 
+        //First Bad Version
+        First_Bad_Version first_Bad_Version = new First_Bad_Version();
+        Console.WriteLine(first_Bad_Version.FirstBadVersion(3));
 
+        //Search insert Pos
+        int[] nums1 = { 8, -19, 5, -4, 20 };
+        Search_Insert_Position search_Insert_Position = new Search_Insert_Position();
+        Console.WriteLine(search_Insert_Position.SearchInsert(nums1, 4));
+
+        //Max SubArray
+        Maximum_Subarray maximum_Subarray = new Maximum_Subarray();
+        Console.WriteLine(maximum_Subarray.MaxSubArray(nums1));
 
 
 

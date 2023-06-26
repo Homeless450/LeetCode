@@ -146,7 +146,7 @@ public static class Programm
         Console.WriteLine(removeFromArray.RemoveElement(nums, 2));
 */
 
-        //Letter_Combinations_of_a_Phone_Number
+/*        //Letter_Combinations_of_a_Phone_Number
         Letter_Combinations_of_a_Phone_Number letter_comb = new Letter_Combinations_of_a_Phone_Number();
         Console.WriteLine(letter_comb.LetterCombinations("234"));
 
@@ -175,6 +175,43 @@ public static class Programm
         //Max SubArray
         Maximum_Subarray maximum_Subarray = new Maximum_Subarray();
         Console.WriteLine(maximum_Subarray.MaxSubArray(nums1));
+
+        //Two Sums II
+        int[] sumsNumbers = { 5, 25, 75 };
+        Two_Sum_II___Input_Array_Is_Sorted two_Sum_II___Input_Array_Is_Sorted = new Two_Sum_II___Input_Array_Is_Sorted();
+        Console.WriteLine(two_Sum_II___Input_Array_Is_Sorted.TwoSum(sumsNumbers, 100));
+
+
+        //Reverse string
+        char[] stringa = { 'h', 'e', 'l', 'l', 'o' };
+        Reverse_String reverse_String = new Reverse_String();
+        reverse_String.ReverseString(stringa);
+
+
+        //Two Sum
+        int[] numberTwoSum = { 2, 7, 11, 15 };
+        Two_Sum two_Sum = new Two_Sum();
+        two_Sum.TwoSum(numberTwoSum, 9);
+*/
+        //Reshape Matrix
+        int[][] matrixForReshape = new int[2][];
+        matrixForReshape[0] = new int[] { 1, 2 };
+        matrixForReshape[1] = new int[] { 3, 4 };
+        Reshape_the_Matrix reshape_The_Matrix   = new Reshape_the_Matrix();
+        reshape_The_Matrix.MatrixReshape(matrixForReshape, 4, 1);
+
+
+        //Pascal's Triangle
+        Pascal_s_Triangle pascal_S_Triangle = new Pascal_s_Triangle();
+        pascal_S_Triangle.Generate(5);
+
+
+
+
+
+
+
+
 
 
 

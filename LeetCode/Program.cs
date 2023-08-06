@@ -1,6 +1,7 @@
 ﻿using LeetCode.Solutions;
 using LeetCode.Solutions._05;
 using LeetCode.Solutions._06;
+using LeetCode.Solutions._07;
 using System.Diagnostics.Metrics;
 
 public static class Programm
@@ -205,13 +206,23 @@ public static class Programm
         Pascal_s_Triangle pascal_S_Triangle = new Pascal_s_Triangle();
         pascal_S_Triangle.Generate(5);
 
+        //Reverse Words in a String
+        Reverse_Words_in_a_String reverse_Words_In_A_String = new Reverse_Words_in_a_String();
+        Console.WriteLine(reverse_Words_In_A_String.ReverseWords("  hello world  "));
+
+        int[][] matrixForSearch =
+{
+            new int[] {1},
+            new int[] {3}
+        };
+
+        //Search_a_2D_Matrix
+        Search_a_2D_Matrix search_A_2D_Matrix = new Search_a_2D_Matrix();
+        Console.WriteLine(search_A_2D_Matrix.SearchMatrix(matrixForSearch, 0));
 
 
-
-
-
-
-
+        Permutation_in_String permutation_In_String = new Permutation_in_String();
+        Console.WriteLine(permutation_In_String.CheckInclusion("abc", "dabc2"));
 
 
 
